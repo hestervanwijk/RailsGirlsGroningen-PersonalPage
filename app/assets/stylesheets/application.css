@@ -43,7 +43,7 @@ h2{
 .content{
 	width: 70%;
 	margin: auto;
-	padding: 5px;
+	padding: 30px 5px; /* boven/onder links/recht*/
 }
 
 #header{

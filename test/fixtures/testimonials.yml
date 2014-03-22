@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  statement: MyText
+  naam: MyString
+  functie: MyString
+  bedrijf: MyString
+
+two:
+  statement: MyText
+  naam: MyString
+  functie: MyString
+  bedrijf: MyString
