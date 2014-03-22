@@ -43,7 +43,7 @@ h2{
 .content{
 	width: 70%;
 	margin: auto;
-	padding: 30px 5px; /* boven/onder links/recht*/
+	padding: 30px 5px; /* boven/onder links/rechts */
 }
 
 #header{
@@ -66,3 +66,50 @@ h2{
 	color: white;
 	background: none;
 }
+.quote{
+	display: inline-block;
+	min-width: 51%;
+}
+
+blockquote{
+	border-left: 6px solid #888;
+	margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D";
+  font-size: 16px;
+}
+blockquote:before,
+blockquote:after{
+	color: #aaa;
+  font-size: 4em;
+  line-height: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote:before{
+	content: open-quote;
+}
+blockquote:after{
+	content: close-quote;
+}
+
+.right{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
