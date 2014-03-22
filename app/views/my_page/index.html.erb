@@ -16,7 +16,8 @@
 	<div id="testimonials">
 		<div class="content">
 			<h2>Testimonials</h2>
-			<p>hier komen straks testimonials</p>
+			<%= render @testimonials %>
+			<p><b><%= link_to 'Voeg een nieuwe testimonial toe', new_testimonial_path %></b></p>
 		</div>
 	</div>
 
