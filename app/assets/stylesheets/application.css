@@ -11,3 +11,57 @@
  *= require_self
  *= require_tree .
  */
+
+ html, body{
+	height: 100%;
+}
+ html, body, div, h1, h2, p{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	color: #BA3657;
+	text-align: center;
+	font-size: 82px;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+h2{
+	color: #222222;
+	font-size: 24px;
+	padding: 20px 0 10px;
+}
+
+#container{
+	background-color: pink;
+	min-height: 100%;
+}
+
+.content{
+	width: 70%;
+	margin: auto;
+	padding: 5px;
+}
+
+#header{
+	background: url('hester2103.jpg') no-repeat center center;
+	background-size: 100% auto;
+	min-height: 500px;
+	width: auto;	
+}
+#testimonials{
+	background-color: #666;
+	color: #fff;
+	min-height: 80px;
+	margin-bottom: 0px;
+}
+#testimonials a{
+	color: pink;
+	text-decoration: none;
+}
+#testimonials a:hover{
+	color: white;
+	background: none;
+}
